@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(249, 253, 253);
+    color: black;
+    font-family: "Lato",Arial;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h1{
+    color: aquamarine;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.main-nav{
+    float: right;
+    margin-top: 50px;
+}
+.main-nav li{
+   
+    
+    display: inline-block;
+}
+.main-nav li a{
+    
+    color: red;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+.main-nav li a:hover {
+    color: #fff;
+    border-bottom: 1px solid red;
+    
+
+    
+}
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    padding: 10px 20px;
+    border: 1px solid red;
+    text-decoration: none;
+    border-radius: 210px;
+    margin-top: 15px;
+}
+.btn-bappa{
+    color: #fff;
+    background-color: red;
+    margin-right: 20px;
+
+}
+.btn-bhoot{
+    color: red;
+
+   
+}
+.btn-bhoot:hover{
+    color: #fff;
+    background-color: red;
+}
+/* Beautify Section Details */
+section {
+    padding: 80px 0;
+}
+h2{
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h2::after{
+    content: "";
+    border: red;
+    margin-top: 40px;
+}
+.get-text{
+    line-height: 145%;
+    width: 70%;
+    margin: 0 15%;
+    margin-bottom: 30px;
+}
+h3{
+    font-weight: 300;
+    font-size: 110%;
+    text-align: justify;
+    margin-bottom: 11px;
+    text-transform: uppercase;
+
+}
+
+
+ion-icon{
+    color: red;
+    font-size: 350%;
+    margin: 10px;
+}
+/* Section 2 */
+
+/* 
+ .fig { 
+    display: flex;     
+    list-style: none;
+}
+.fig img{
+    content: "";
+    padding: 0;
+    width: 100%;
+    height: auto;
+    /* margin:10px; */
+    /* transform: scale (1.8); */
+    /* opacity:0.7; */
+/* }
+.picc{
+    display: flex;  
+    list-style: none;
+}
+
+.picc img{
+    
+    content: ""; 
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    margin:10px;
+    transform: scale (1.8);
+}
+
+img:hover {
+    /* -webkit-transform: scaleX(-1); */
+    /* transform: scale(1.0);
+     */
+/* }  */
+
+.food-img{
+    list-style: none;
+    width: 100%;
+}
+.food-img li{
+    width: 25%;
+    float: left;
+    background-color: #000;
+}
+.menu{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.menu img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.2);
+    opacity: 0.7;
+    transition: 0.3s, opacity 0.5s;
+}
+.menu img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
+/* ================= */
